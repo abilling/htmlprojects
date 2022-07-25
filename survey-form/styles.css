@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.4;
+    background-color: #b0c4de;
+    width: 500px;
+    margin: auto;
+}
+
+form {
+    background: rbg(147, 5, 5, 0.2);
+    padding: 2.5rem 2.5rem;
+    border-radius: ;
+}
