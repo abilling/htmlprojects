@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="styles.css">
+<h1 id="title">Survey</h1>
+
+<p id="description">This survey is to get your thoughts on certain issues.</p>
+
+<form id="survey-form">
+  <label id="name-label">Name:</label>
+  <input id="name" type="text" placeholder="First and last name here." required>
+  <label id="email-label">Email:</label>
+  <input id="email" type="email" placeholder="Email here." required>
+  <label id="number-label"></label>
+  <input id="number" type="number" min="8" max="12" placeholder="12345678">
+  <select id="dropdown">
+  <option> <input type="radio" value="yes" name="radio-button"> </option>
+  <option> <input type="radio" value="no" name="radio-button"> </option>
+  </select>
+  <input type="checkbox" value="Yes">
+  <input type="checkbox" value="No">
+  <textarea></textarea>
+  <button id="submit" type="submit">Submit</button>
+</form>
